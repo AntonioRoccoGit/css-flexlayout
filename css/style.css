@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 a {
     color: inherit;
 }
@@ -22,9 +24,11 @@ header {
 
 main.flex {
     gap: 10px;
+    align-items: flex-start;
 } 
 
 nav.menu {
+    min-height: 300px;
     padding: 10px;
     width: 25%;
     /* debug */
@@ -32,20 +36,22 @@ nav.menu {
 }
 
 .main-section {
+    padding: 10px;
     width: 50%;
     /* debug */
     background-color: lightcoral;
 }
 
 aside {
+    min-height: 300px;
+    text-align: center;
+    padding: 10px 0;
     width: 25%;
     /* debug */
     background-color: lightgreen;
 }
 
 /* Navigation bar */
-
-
 
 nav.menu li {
     padding: 10px;
@@ -54,6 +60,23 @@ nav.menu li {
     /* debug */
     background-color: red;
 }
+
+/* Main section */
+
+.wrapper {
+    padding: 10px;
+    border: 1px white dashed;
+}
+
+.wrapper article {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightgrey;
+}
+
+/* Banner */
+
+
 
 /* FOOTER */
 
