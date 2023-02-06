@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+a {
+    color: inherit;
+}
+
 /* HEADER */
 
 header {
@@ -21,6 +25,7 @@ main.flex {
 } 
 
 nav.menu {
+    padding: 10px;
     width: 25%;
     /* debug */
     background-color: aqua;
@@ -39,6 +44,16 @@ aside {
 }
 
 /* Navigation bar */
+
+
+
+nav.menu li {
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    /* debug */
+    background-color: red;
+}
 
 /* FOOTER */
 
