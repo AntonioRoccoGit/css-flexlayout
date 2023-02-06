@@ -1,0 +1,56 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    height: 80px;
+    background-color: orange;
+
+}
+
+/* MAIN */
+
+main.flex {
+    gap: 10px;
+} 
+
+nav.menu {
+    width: 25%;
+    /* debug */
+    background-color: aqua;
+}
+
+.main-section {
+    width: 50%;
+    /* debug */
+    background-color: lightcoral;
+}
+
+aside {
+    width: 25%;
+    /* debug */
+    background-color: lightgreen;
+}
+
+/* Navigation bar */
+
+/* FOOTER */
+
+footer {
+
+    /* debug */
+    background-color: lightsalmon;
+    height: 100px;
+}
+
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
